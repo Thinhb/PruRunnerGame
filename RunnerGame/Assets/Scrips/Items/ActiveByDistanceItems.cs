@@ -16,7 +16,7 @@ public class ActiveByDistanceItems : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PlayerTranform = GameObject.FindGameObjectWithTag("Player").transform;
+        //PlayerTranform = GameObject.FindGameObjectWithTag("Player").transform;
 
         if (PlayerTranform!=null)
         {
