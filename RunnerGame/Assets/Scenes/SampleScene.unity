@@ -2302,6 +2302,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CaveGate
       objectReference: {fileID: 0}
+    - target: {fileID: 6793956708568166272, guid: 07e893ad33879b545b79428b3dfe4015, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07e893ad33879b545b79428b3dfe4015, type: 3}
 --- !u!1 &1600941291
@@ -2679,32 +2683,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2146757612677208616, guid: 6dcf1b6e33e51f14b9e4eba98ff78340, type: 3}
   m_PrefabInstance: {fileID: 8913612587585315524}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2081399357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2081399354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8358f4558c4163543ac8f7107cef3b9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 7
---- !u!114 &2081399358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2081399354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2a4d336bad32b4498c7126d90c8231f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  checkActive: 0
 --- !u!4 &2081399360 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1178054603449538503, guid: 6dcf1b6e33e51f14b9e4eba98ff78340, type: 3}
@@ -2896,6 +2874,10 @@ PrefabInstance:
     - target: {fileID: 2146757612677208616, guid: 6dcf1b6e33e51f14b9e4eba98ff78340, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2736914021449504404, guid: 6dcf1b6e33e51f14b9e4eba98ff78340, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4089636894248495612, guid: 6dcf1b6e33e51f14b9e4eba98ff78340, type: 3}
       propertyPath: MapList.Array.size
