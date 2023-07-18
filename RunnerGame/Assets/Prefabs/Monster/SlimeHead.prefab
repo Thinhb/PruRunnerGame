@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2443952807806222973}
   - component: {fileID: 2443952807806222972}
   - component: {fileID: 562772664522683875}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SlimeHead
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 2443952808521666868}
   - component: {fileID: 2443952808521666871}
   - component: {fileID: 506515253753864870}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Slime
   m_TagString: Untagged
   m_Icon: {fileID: 0}

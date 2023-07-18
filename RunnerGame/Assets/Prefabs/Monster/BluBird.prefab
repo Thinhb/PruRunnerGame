@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 666084922261465207}
   - component: {fileID: 666084922261465196}
   - component: {fileID: 8980466197709590437}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BluBird
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 666084923362995978}
   - component: {fileID: 666084923362995972}
   - component: {fileID: 2712458805666247011}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}

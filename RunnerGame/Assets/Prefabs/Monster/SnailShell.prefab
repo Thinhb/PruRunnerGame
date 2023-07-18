@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2111238421}
   - component: {fileID: 2111238422}
   - component: {fileID: 2111238423}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ColliderRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,7 +83,7 @@ GameObject:
   - component: {fileID: 5316869171940971685}
   - component: {fileID: 5316869171940971611}
   - component: {fileID: 6159428645674357455}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 930933260}
   - component: {fileID: 344643318}
   - component: {fileID: 3762761427904357989}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SnailShell
   m_TagString: Enemy
   m_Icon: {fileID: 0}

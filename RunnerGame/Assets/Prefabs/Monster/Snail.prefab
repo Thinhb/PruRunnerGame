@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4017738858119030496}
   - component: {fileID: 4017738858119030498}
   - component: {fileID: 139495487128631312}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 4017738858236804867}
   - component: {fileID: 4017738858236804873}
   - component: {fileID: 8566682079484615866}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Snail
   m_TagString: Enemy
   m_Icon: {fileID: 0}

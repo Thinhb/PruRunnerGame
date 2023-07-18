@@ -6,8 +6,10 @@ public class ColliderEnemy : MonoBehaviour
 {
     // Start is called before the first frame update
     HitPlayer hitPlayer;
+    Health health;
     private void Start()
     {
+        health=FindObjectOfType<Health>();
         hitPlayer =FindObjectOfType<HitPlayer>();
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -15,6 +17,8 @@ public class ColliderEnemy : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             hitPlayer.animator.SetBool("HitCheck", true);
+            health.lostHealth();
+
         }
     }
 }
