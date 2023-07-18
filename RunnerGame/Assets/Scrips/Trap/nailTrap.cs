@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class nailTrap : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class nailTrap : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Destroy(collision.gameObject);  
+            SceneManager.LoadScene("GameOver");  
         }
     }
     
